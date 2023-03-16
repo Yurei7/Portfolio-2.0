@@ -1,11 +1,12 @@
 body {
     text-align: center;
-    cursor: url('cursor.png'), auto;
-    background-color: black;
- 
+    cursor: url('mario.png'), auto;
+    background-color: white;
+
 
 
 }
+
 /* Loading page content */
 
 .loadingAvatar {
@@ -14,17 +15,17 @@ body {
     position: absolute;
     top: 36%;
     right: 45%;
-    visibility: hidden;
+    visibility: visible;
 
 }
 
-.loadingBar{
+.loadingBar {
     height: 70px;
     width: 300px;
     position: absolute;
     top: 55%;
     right: 41%;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .loadingText {
@@ -32,61 +33,67 @@ body {
     top: 63%;
     left: 45.5%;
     font-size: 20px;
-    visibility: hidden;
+    visibility: visible;
 }
 
 /* Home Page Content */
 
 .name {
     position: absolute;
-    top: 30%;
-    line-height: 1;
-    font-size: 80px;
+    top: 22%;
+    line-height: 1.2;
+    font-size: 70px;
     right: 39%;
     width: 500px;
-    font-family: 'Lilita One', cursive;
-    color: #e37f0es;
-    letter-spacing: -2px;
-    -webkit-text-stroke: 2px white;
+    font-family: 'Vast Shadow', cursive;
+    color: white;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 0px white;
+    visibility: hidden;
 
 }
 
 .firstname {
-    font-size:150px ;
+    font-size: 100px;
 
 }
 
 h2 {
     position: absolute;
     width: 30%;
-    top: 63%;
+    font-size: 30px;
+    top: 52%;
     color: white;
-    -webkit-text-stroke: 1px black;
-    right: 41%;
+    -webkit-text-stroke: 0px black;
+    right: 41.5%;
     font-family: 'Tilt Warp', cursive;
-    border-bottom: 1px solid white;
+    border-bottom: 0px solid white;
     line-height: 0.1rem;
+    visibility: hidden;
 }
 
 .portfolio {
-   
-  padding: 0 10px 0 10px;
 
+    padding: 0 10px 0 10px;
+    vis
 }
 
 .playbtn {
     position: absolute;
-    top: 70%;
-    font-size: 35px;
-    right: 49.8%;
+    z-index: 1;
+    top: 59%;
+    font-size: 45px;
+    right: 48.6%;
     padding: 5px 35px 5px 35px;
     background-color: #e66605;
     color: white;
     font-family: 'Tilt Warp', cursive;
-letter-spacing: 5px;
-cursor: url('cursor.png'), auto;
+    letter-spacing: 5px;
+    cursor: url('disney.png'), auto;
+    visibility: hidden;
 
 }
+
 /*
 div {
     position: absolute;
@@ -107,12 +114,13 @@ div {
     position: fixed;
     z-index: 1;
     display: inline;
-    right:10% ;
+    right: 10%;
     height: 750px;
     width: 1100px;
     margin: 0;
     padding-bottom: 50px;
-  
+    visibility: hidden;
+
 }
 
 .tvscreen {
@@ -125,5 +133,52 @@ div {
     border: solid;
     border-width: 5px;
     border-color: black;
-    opacity: 1;
+    opacity: 0.4;
+    visibility: hidden;
+}
+
+.static {
+    position: fixed;
+    z-index: -2;
+    right: 33%;
+    top: 15%;
+    height: 550px;
+    width: 700px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    opacity: 0.6;
+    visibility: hidden;
+
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    font-size: 45px;
+    right: 46%;
+    padding: 5px 35px 5px 35px;
+    width: 300px;
+    background-color: #e66605;
+    color: white;
+    font-family: 'Tilt Warp', cursive;
+    letter-spacing: 5px;
+    cursor: url('disney.png'), auto;
+    visibility: hidden;
+}
+
+.skills {
+    top: 30%;
+}
+
+.links {
+    top: 60%;
+}
+
+.projects {
+    top: 45%;
+}
+
+.loadingscreen {
+    visibility: visible;
 }
