@@ -1,6 +1,11 @@
 body {
     text-align: center;
+    cursor: url('cursor.png'), auto;
+
+   
+
 }
+/* Loading page content */
 
 .loadingAvatar {
     height: 180px;
@@ -8,6 +13,7 @@ body {
     position: absolute;
     top: 36%;
     right: 45%;
+    visibility: hidden;
 
 }
 
@@ -17,6 +23,7 @@ body {
     position: absolute;
     top: 55%;
     right: 41%;
+    visibility: hidden;
 }
 
 .loadingText {
@@ -24,4 +31,58 @@ body {
     top: 63%;
     left: 45.5%;
     font-size: 20px;
+    visibility: hidden;
+}
+
+/* Home Page Content */
+
+.name {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    right: 32%;
+    width: 500px;
+    font-family: 'Rubik Iso', cursive;
+}
+
+h2 {
+    position: absolute;
+    width: 30%;
+    top: 53%;
+    right: 35%;
+    font-family: 'Tilt Warp', cursive;
+    border-bottom: 1px solid black;
+    line-height: 0.1rem;
+}
+
+.portfolio {
+   
+  padding: 0 10px 0 10px;
+  background-color: #ffff;
+
+}
+
+.playbtn {
+    position: absolute;
+    top: 60%;
+    font-size: 35px;
+    right: 43.8%;
+    padding: 5px 35px 5px 35px;
+    background-color: #e66605;
+    color: white;
+    font-family: 'Tilt Warp', cursive;
+letter-spacing: 5px;
+cursor: url('cursor.png'), auto;
+
+}
+
+div {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    background-image: url(https://media3.giphy.com/media/QhtKoBe58BMXFYm9F6/giphy.gif?cid=ecf05e47hk3qg8kaj9yx5626x75cqagpsi2yxzi6p30arjhe&rid=giphy.gif&ct=g); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
