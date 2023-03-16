@@ -10,7 +10,7 @@ setTimeout(() => {
     document.querySelector(".tvscreen").style.visibility = "visible";
 
 
-}, 1000);
+}, 9300);
 
 document.querySelector(".playbtn").addEventListener("click", enter);
 function enter() {
