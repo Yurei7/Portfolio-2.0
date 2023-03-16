@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+.loadingAvatar {
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 36%;
+    right: 45%;
+
+}
+
+.loadingBar{
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    top: 55%;
+    right: 41%;
+}
+
+.loadingText {
+    position: absolute;
+    top: 63%;
+    left: 45.5%;
+    font-size: 20px;
+}
