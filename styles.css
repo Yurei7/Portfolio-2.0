@@ -1,7 +1,7 @@
 body {
     text-align: center;
     cursor: url('mario.png'), auto;
-    background-color: black;
+    background-color: white;
 
 
 
@@ -217,7 +217,7 @@ visibility: hidden;
 border: none;
   border-radius: 50%;
 cursor: url('disney.png'), auto;
-visibility: visible;
+visibility: hidden;
 
 }
 
@@ -271,4 +271,5 @@ visibility:hidden;
     top: 15.5%;
     right: 35.5%;
     width: 600px;
+    visibility: hidden;
 }

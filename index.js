@@ -15,7 +15,7 @@ for (i=0;i<numOfHomepageElements;i++){
     document.querySelectorAll(".homepage")[i].style.visibility="visible";
 }
 
-}, 0);
+}, 5000);
 
 document.querySelector(".poweroffbtn").addEventListener("click",powerOff)
 
